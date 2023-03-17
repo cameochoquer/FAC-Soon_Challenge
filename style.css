@@ -1,10 +1,31 @@
-/* 1-product-detail-page */
-position: relative;
-width: 1280px;
-height: 949px;
+* {
+  font-family: "Roboto";
+}
+html {
+  font-family: "Roboto";
+  font-style: normal;
+}
 
-/* fill/-white */
-background: #FFFFFF;
+.header-text {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+}
+.lg-text {
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 40px;
+}
+.md-text {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+}
+.sm-text {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+}
 
 /* HEADER */
 /* brand-name */
@@ -12,11 +33,6 @@ width: 75px;
 height: 28px;
 
 /* headline-2 */
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 300;
-font-size: 24px;
-line-height: 28px;
 
 /* fill-shade/black-1 */
 color: rgba(0, 0, 0, 0.25);
@@ -29,11 +45,11 @@ flex-grow: 0;
 width: 119px;
 height: 28px;
 /* headline-2 */
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 300;
+/* font-family: 'Roboto';
+font-style: normal; */
+/* font-weight: 300;
 font-size: 24px;
-line-height: 28px;
+line-height: 28px; */
 /* fill/-black */
 color: #000000;
 /* Inside auto layout */
@@ -60,7 +76,6 @@ bottom: 12.5%;
 /* fill/-black */
 background: #000000;
 
-
 /* 0 - BASKET COUNT */
 position: absolute;
 width: 24px;
@@ -68,37 +83,44 @@ height: 24px;
 left: 0px;
 top: 0px;
 /* overline */
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
+/* font-family: 'Roboto';
+font-style: normal; */
+/* font-weight: 400;
 font-size: 10px;
-line-height: 12px;
+line-height: 12px; */
 display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 1.5px;
 text-transform: uppercase;
 /* fill/-white */
-color: #FFFFFF;
+color: #ffffff;
 
-/* IMAGE */
-position: absolute;
-left: 3.12%;
-right: 50.94%;
-top: 17.39%;
-bottom: 0%;
+.product-detail-page {
+  position: relative;
+  width: 1280px;
+  height: 949px;
+  background: #ffffff;
+}
 
-background: url(mackintosh-drumming-orange-dry-waxed-cotton-hooded-jacket-gmm-200_15481794_30254686_1000.png);
+.product-image {
+  position: absolute;
+  left: 3.12%;
+  right: 50.94%;
+  top: 17.39%;
+  bottom: 0%;
+  background: url(mackintosh-drumming-orange-dry-waxed-cotton-hooded-jacket-gmm-200_15481794_30254686_1000.png);
+}
 
 /* product-name */
 width: 588px;
 height: 40px;
 /* headline-1 */
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
+/* font-family: 'Roboto';
+font-style: normal; */
+/* font-weight: 400;
 font-size: 34px;
-line-height: 40px;
+line-height: 40px; */
 /* identical to box height */
 /* fill/-black */
 color: #000000;
@@ -112,11 +134,11 @@ flex-grow: 0;
 width: 588px;
 height: 144px;
 /* body */
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 300;
+/* font-family: 'Roboto';
+font-style: normal; */
+/* font-weight: 300;
 font-size: 16px;
-line-height: 24px;
+line-height: 24px; */
 /* or 150% */
 /* fill/-black */
 color: #000000;
@@ -130,11 +152,11 @@ flex-grow: 0;
 width: 588px;
 height: 24px;
 /* body */
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 300;
+/* font-family: 'Roboto';
+font-style: normal; */
+/* font-weight: 300;
 font-size: 16px;
-line-height: 24px;
+line-height: 24px; */
 /* identical to box height, or 150% */
 /* fill/-black */
 color: #000000;
@@ -144,16 +166,15 @@ order: 2;
 align-self: stretch;
 flex-grow: 0;
 
-
 /* stock-level */
 width: 73px;
 height: 12px;
 /* overline */
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
+/* font-family: 'Roboto';
+font-style: normal; */
+/* font-weight: 400;
 font-size: 10px;
-line-height: 12px;
+line-height: 12px; */
 /* identical to box height */
 letter-spacing: 1.5px;
 text-transform: uppercase;
@@ -168,11 +189,11 @@ flex-grow: 0;
 width: 9px;
 height: 24px;
 /* body */
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 300;
+/* font-family: 'Roboto';
+font-style: normal; */
+/* font-weight: 300;
 font-size: 16px;
-line-height: 24px;
+line-height: 24px; */
 /* identical to box height, or 150% */
 /* fill/-black */
 color: #000000;
@@ -188,7 +209,7 @@ right: 20.83%;
 top: 45.83%;
 bottom: 45.83%;
 /* fill/primary-2 */
-background: #3F51B5;
+background: #3f51b5;
 
 /* (+)vector */
 position: absolute;
@@ -197,7 +218,7 @@ right: 20.83%;
 top: 20.83%;
 bottom: 20.83%;
 /* fill/primary-2 */
-background: #3F51B5;
+background: #3f51b5;
 
 /* BUTTON */
 /* Auto layout */
@@ -209,7 +230,7 @@ padding: 10px 16px;
 width: 145px;
 height: 36px;
 /* fill/primary-2 */
-background: #3F51B5;
+background: #3f51b5;
 border-radius: 48px;
 /* Inside auto layout */
 flex: none;
@@ -220,18 +241,19 @@ flex-grow: 0;
 width: 113px;
 height: 16px;
 
-/* button */
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.75px;
-text-transform: uppercase;
-/* fill/-white */
-color: #FFFFFF;
+/* BLUE BUTTON */
+/* font-family: 'Roboto';
+font-style: normal; */
+.btn-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
 /* Inside auto layout */
 flex: none;
 order: 0;
 flex-grow: 0;
-
