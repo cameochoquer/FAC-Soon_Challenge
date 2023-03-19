@@ -67,7 +67,7 @@ header {
   flex-grow: 0;
 }
 .challenge {
-  width: 119px;
+  width: 129px;
   height: 28px;
   flex: none;
   order: 1;
@@ -137,7 +137,7 @@ header {
   background-image: url(vector.png);
 }
 .number {
-    position: relative;
+  position: relative;
   width: 24px;
   height: 24px;
   border-radius: 48px;
@@ -163,4 +163,19 @@ header {
 
 .fill-white {
   color: #ffffff;
+}
+.background-white{
+background: #FFFFFF;
+}
+.product-detail-page {
+  position: relative;
+  width: 1280px;
+  height: 949px;
+}
+.product-image {
+    position: absolute;
+    right: 50.94%;
+    top: 17.39%;
+    bottom: 0%;
+    width: 46.82%;
 }
