@@ -305,3 +305,26 @@ header {
   top: 20.83%;
   bottom: 20.83%;
 }
+.btn-long {
+  height: 36px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 16px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  border-radius: 48px;
+}
+.btn-text {
+  width: 130px;
+  height: 16px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
