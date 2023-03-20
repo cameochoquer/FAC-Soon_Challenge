@@ -1,13 +1,5 @@
 # FAC-Soon_Challenge
 
-### Tell us about yourself in a few lines
-
-### What do you like most about coding what makes you passionate about it?
-
-### Why are you doing the apprenticeship and what do you want to get out of it?
-
-### What are your near future goals… what do you see yourself doing after you’ve completed the apprenticeship?
-
 ## Challenge 1
 ### Basket App User Flow
 I decided to tackle challenge 1: the basket app user flow. 
@@ -22,3 +14,6 @@ From then, I tried to get the styling of the page settled before I jumped into d
 #### Challenges
 - Adapting to someone else's CSS and 'stacking' flexboxes. 
 - lots of trial and error because of the above
+
+#### Wins
+- I loved working on the functions. They probably took me the least amount of time to do but still need a bit of testing. 
