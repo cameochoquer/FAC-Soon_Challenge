@@ -264,6 +264,9 @@ header {
   box-sizing: border-box;
   width: 32px;
   height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .auto-layout {
@@ -285,10 +288,6 @@ header {
 .symbol-size {
   width: 24px;
   height: 24px;
-  left: 0%;
-  right: 0%;
-  top: 0%;
-  bottom: 0%;
 }
 .minus {
   left: 20.83%;
@@ -300,10 +299,7 @@ header {
   background: #3f51b5;
 }
 .plus {
-  left: 20.83%;
-  right: 20.83%;
-  top: 20.83%;
-  bottom: 20.83%;
+  transform: translate(4px, 4px);
 }
 .btn-long {
   height: 36px;
