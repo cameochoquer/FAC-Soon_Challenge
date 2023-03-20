@@ -12,16 +12,17 @@ const plus = () => {
 };
 
 const minus = () => {
-  n = Math.max(n-1,0)
+  n = Math.max(n - 1, 0);
   quantity.innerText = n.toString();
 };
 
 plusButton.addEventListener("click", plus);
 minusButton.addEventListener("click", minus);
 
-
 const addToBasket = () => {
-basketQuantity.innerText = quantity;
+  let basketNumber = (+basketQuantity.innerText);
+  let quantityNumber = (+quantity.innerText);
+  basketQuantity.innerText = basketNumber + quantityNumber;
 };
 
-addButton.addEventListener("click",addToBasket);
+addButton.addEventListener("click", addToBasket);
