@@ -1,8 +1,5 @@
 * {
   font-family: "Roboto", sans-serif;
-}
-html {
-  font-family: "Roboto", sans-serif;
   font-style: normal;
 }
 header {
@@ -14,6 +11,9 @@ header {
 }
 .background-fade-black {
   background: rgba(0, 0, 0, 0.25);
+}
+.fade-black {
+  color: rgba(0, 0, 0, 0.25);
 }
 .fill-black {
   color: #000000;
@@ -61,7 +61,6 @@ header {
 .brand {
   width: 75px;
   height: 28px;
-  color: rgba(0, 0, 0, 0.25);
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -227,4 +226,82 @@ header {
   order: 2;
   align-self: stretch;
   flex-grow: 0;
+}
+#product-quantity {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+  width: 121px;
+  height: 68px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.in-stock {
+  width: 73px;
+  height: 12px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.control-layout {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+  width: 121px;
+  height: 32px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.btn {
+  box-sizing: border-box;
+  width: 32px;
+  height: 32px;
+}
+
+.auto-layout {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 4px;
+}
+
+.fill-blue {
+  border: 1px solid #3f51b5;
+  border-radius: 24px;
+}
+.inside-auto-layout {
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+.symbol-size {
+  width: 24px;
+  height: 24px;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+}
+.minus {
+  left: 20.83%;
+  right: 20.83%;
+  top: 45.83%;
+  bottom: 45.83%;
+}
+.background-blue {
+  background: #3f51b5;
+}
+.plus {
+  left: 20.83%;
+  right: 20.83%;
+  top: 20.83%;
+  bottom: 20.83%;
 }

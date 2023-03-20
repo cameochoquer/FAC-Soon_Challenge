@@ -8,7 +8,7 @@
   <body class="product-detail-page background-white">
     <header>
       <div id="lock-up" class="header-text brand">
-        <h2 class="header-text">SOON_</h2>
+        <h2 class="header-text fade-black">SOON_</h2>
         <h2 class="header-text challenge fill-black">Basket App</h2>
       </div>
       <div id="basket">
@@ -26,24 +26,48 @@
 
       <div id="hr" class="background-fade-black"></div>
     </header>
-    <img src="mackintosh_orange_coat.webp" class="product-image" />
-    <div id="product-information" class="flex-column">
-      <div id="product-details" class="product-details">
-        <h1 class="product-name fill-black lg-text">
-          Waxed Cotton Hooded Jacket
-        </h1>
-        <p class="product-description fill-black md-text">
-          The Drumming jacket in orange is finished with a water-repellent dry
-          wax treatment that creates a love-worn look. It's made in the United
-          Kingdom using organic cotton ripstop with a drawstring hood, underarm
-          eyelets and buttoned flap front pockets. Shoulder epaulettes add a
-          utilitarian twist, while a fly-fronted zip and snap-button closure
-          keeps the overall look streamlined. Attach one of the collection's
-          padded liners to the internal tab on cooler days.
-        </p>
-        <p class="fill-black md-text product-price">£650.00</p>
+    <main>
+      <img src="mackintosh_orange_coat.webp" class="product-image" />
+      <div id="product-information" class="flex-column">
+        <div id="product-details" class="product-details">
+          <h1 class="product-name fill-black lg-text">
+            Waxed Cotton Hooded Jacket
+          </h1>
+          <p class="product-description fill-black md-text">
+            The Drumming jacket in orange is finished with a water-repellent dry
+            wax treatment that creates a love-worn look. It's made in the United
+            Kingdom using organic cotton ripstop with a drawstring hood, underarm
+            eyelets and buttoned flap front pockets. Shoulder epaulettes add a
+            utilitarian twist, while a fly-fronted zip and snap-button closure
+            keeps the overall look streamlined. Attach one of the collection's
+            padded liners to the internal tab on cooler days.
+          </p>
+          <span class="fill-black md-text product-price">£650.00</span>
+        </div>
+        <div id="product-quantity">
+          <p class="sm-text fade-black in-stock">10 in stock</p>
+          <div id="controls" class="control-layout">
+            <button id="minus-button" class="btn fill-blue auto-layout">
+              <div class="symbol-size">
+                <svg viewBox="0 0 24 24" class="minus">
+                  <path fill="#3F51B5" d="M19,13H5V11H19V13Z" /></svg>
+              </div>
+            </button>
+            <span id="amount-added" class="md-text fill-black">1</span>
+
+            <button id="add-button" class="btn fill-blue inside-auto-layout">
+              <div class="symbol-size">
+                <svg viewBox="0 0 24 24" class="plus">                
+                  <path fill="#3F51B5" d="M12,5V19M5,12H19"/>
+                </svg>
+              </div>
+            </button>
+          </div>
+        </div>
       </div>
-    </div>
+
+    </main>
+    
   </body>
-  <script src="script"></script>
+  <script src="script.js"></script>
 </html>
