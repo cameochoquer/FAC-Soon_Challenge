@@ -1,3 +1,15 @@
+const stock = [{
+  product: 'Waxed Cotton Hooded Jacket',
+  description: 'The Drumming jacket in orange is finished with a water-repellent dry wax treatment that creates a love-worn look. It\'s made in the United Kingdom using organic cotton ripstop with a drawstring hood, underarm eyelets and buttoned flap front pockets. Shoulder epaulettes add a utilitarian twist, while a fly-fronted zip and snap-button closure keeps the overall look streamlined. Attach one of the collection\'s padded liners to the internal tab on cooler days.',
+  price: '£650.00',
+  count: 10
+}];
+document.getElementById("product-name").innerText = stock[0].product;
+document.getElementById("description").innerText = stock[0].description;
+document.getElementById("stock-count").innerText = stock[0].count;
+document.getElementById("price").innerText = stock[0].price;
+
+
 const plusButton = document.getElementById("add-button");
 const minusButton = document.getElementById("minus-button");
 const basketQuantity = document.getElementById("basket-quantity");
@@ -26,3 +38,4 @@ const addToBasket = () => {
 };
 
 addButton.addEventListener("click", addToBasket);
+
